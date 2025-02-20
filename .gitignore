@@ -1,3 +1,20 @@
+# Webpack build output
+dist/
+build/
+out/
+
+# TypeScript incremental build cache
+*.tsbuildinfo
+
+# Compiled JavaScript & TypeScript declaration files
+*.js
+*.js.map
+*.d.ts
+
+# Editor settings
+.vscode/
+.idea/
+
 # Logs
 logs
 *.log
