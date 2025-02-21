@@ -1,13 +1,12 @@
 # Webpack build output
 dist/
-build/
-out/
 
 # TypeScript incremental build cache
 *.tsbuildinfo
 
 # Compiled JavaScript & TypeScript declaration files
 *.js
+!webpack.config.js
 *.js.map
 *.d.ts
 
