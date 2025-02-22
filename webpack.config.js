@@ -3,7 +3,7 @@ import HtmlWebpackPlugin from "html-webpack-plugin"
 
 export default {
     mode: "development",
-    entry: "./src/index.ts",
+    entry: "./src/main.ts",
     output: {
         filename: "main.js",
         path: path.resolve("dist"),
@@ -35,6 +35,9 @@ export default {
     devServer: {
         static: "dist",
         hot: true,
-        open: true
+        open: true,
+        liveReload: true,
+        port: 8080,
+        watchFiles: ['./src/**/*']
     }
 }
